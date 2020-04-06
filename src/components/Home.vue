@@ -69,7 +69,7 @@ export default {
       const {data:res} = await this.$http.get('menus')
       if(res.meta.status !== 200) return this.$message.error(res.meta.msg)
       this.menulist = res.data
-      console.log(res);
+      // console.log(res);
       
     },
     saveNavState(activePath){
@@ -103,10 +103,14 @@ export default {
 .el-aside {
   background-color: #333744;
   color: white;
+  .el-menu {
+    border-right:none;
+  }
 }
 
 .el-main {
   background-color: #eaedf1;
+  
 }
 
 .toggle-button {
