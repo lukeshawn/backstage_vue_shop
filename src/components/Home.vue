@@ -104,11 +104,7 @@ export default {
   background-color: #333744;
   color: white;
   .el-menu {
-<<<<<<< HEAD
-    border-right: none;
-=======
     border-right:none;
->>>>>>> users
   }
 }
 
