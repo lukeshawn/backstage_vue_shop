@@ -27,7 +27,10 @@ import {
     Select,
     Option,
     Tag,
-    Tree
+    Tree,
+    Timeline,
+    TimelineItem,
+    Cascader
 } from 'element-ui'
 
 
@@ -57,5 +60,8 @@ Vue.use(Select)
 Vue.use(Option)
 Vue.use(Tag)
 Vue.use(Tree)
+Vue.use(Timeline)
+Vue.use(TimelineItem)
+Vue.use(Cascader)
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm
